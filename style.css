@@ -1,0 +1,66 @@
+.global-navbar {
+    cursor: default;
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    user-select: none;
+    list-style: none;
+    background-color: rgb(58, 58, 58);
+    align-items: center;
+    justify-content: center;
+}
+.menubarblocks {
+    display: inline-block;
+    margin: 0px 8px;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: 400px;
+    /* letter-spacing: -.01em; */
+    width: auto;
+    height: auto;
+    color: white;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.menubarblocks:hover {
+    color: blue;
+}
+
+.mainTable {
+    border: 2px dotted black;
+}
+.table {
+    border: 1px dotted red;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table th {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+}
+
+.table td {
+    border: 1px solid black;
+    background-color: rgb(227, 227, 227);
+}
+
+#userDetailForm {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+    background-color: burlywood;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+
+form {
+    text-align: center;
+}
