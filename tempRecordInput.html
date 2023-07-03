@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Details</title>
+    <style>
+form {
+    border: 1px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="userInputForm">
+            <h3> Enter your Details</h3>
+            <form action="backend.php">
+                <div id="todaysDate">
+                    Date : <input type="date" name="" id="tDate">
+                </div>
+                <br>
+                <div id="minTemp">
+                    Min Temp : <input type="number" name="" id="minTemp">
+                </div>
+                <br>
+                <div id="maxTemp">
+                    Max Temp: <input type="number" id="maxTemp" >
+                </div>
+                <br>
+                <div id="currentTemp">
+                    Currunt Temp: <input type="Number" name="" id="cTemp">
+                </div>
+                <br>
+                <div id="inRange">
+                    In Range ? Yes <input type="radio" name="inRange" id=""> No <input type="radio" name="inRange" id="iRange">
+                </div>
+                <br>
+                <div id="comment">
+              Comment : <input type="text" placeholder="e.g. defrosted, power outage, inventory, transfer, etc." id="cmt">
+                </div>
+                <br>
+                <div id="user">
+                    User Details : input: <input type="text" name="" id="userAc"> <input type="datetime-local" name="" id="localDt">
+                </div>
+                <br>
+                <div id="submitbutton">
+                    <button id="sButton">Submit</button>
+                </div>
+    </form>
+    
+    </div>
+</body>
+</html>
