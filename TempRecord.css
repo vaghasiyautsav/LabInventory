@@ -1,0 +1,51 @@
+* {
+    /* border: 1px solid red; */
+    text-align: left;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1046.929px;
+    min-height: 30px;
+}
+
+.notice {
+    text-align: center;
+}
+
+.notice h4 {
+    display: inline-block;
+    text-align: left;
+}
+
+.approvalAndAuth {
+    text-align: center;
+}
+
+.approvalAndAuth h2 {
+    display: inline-block;
+    text-align: left;
+
+}
+eqpDetailTable {
+    text-align: left
+}
+
+eqpDetailTable h3 {
+    display: inline-block;
+    text-align: left;
+}
+
+listedTable {
+text-align: left;
+}
+listedTable {
+display: inline-block;
+}
+
+.notice2 {
+    padding: 3px 3px;
+    margin: 3px 3px;
+}
